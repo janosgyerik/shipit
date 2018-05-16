@@ -19,7 +19,7 @@ body {
 
 .countdown-container {
 	position: relative;
-	top: 50%;
+	top: 30%;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -38,6 +38,20 @@ body {
 	border-radius: 50%;
 	height: 0px;
 	padding-bottom: 100%;
+}
+
+.reminders {
+	color: #fff;	
+	font-size: 30px;
+	font-weight: bold;	
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.reminders ul {
+  padding-top: 1em;
+  list-style-type: none;
+  font-variant: small-caps;
 }
 
 .text {
